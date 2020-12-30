@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <section className="flex justify-center">
-      <div className="p-2 pb-16 md:pb-0 min-h-screen flex flex-col justify-center">
+      <div className="p-2 md:px-8 pb-16 md:pb-0 min-h-screen flex flex-col justify-center">
         <h1 className="mb-8 text-3xl sm:text-4xl md:text-5xl font-mono text-gray-700 font-bold">
           Hi there, <br />
           my name is <span className="text-yellow-400">{name}</span>.
