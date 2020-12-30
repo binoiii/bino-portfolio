@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 const TechnologiesTemplate = ({ technologies }) => (
   <div className="mb-12">
-    <h4 className="mb-4 font-bold">Technologies</h4>
+    <h4 className="mb-4 font-bold">Technologies and Concept</h4>
     <div className="flex flex-wrap">
       {technologies &&
         technologies.map((tech, i) => (
