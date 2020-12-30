@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: "Beckman";
+  src: local("Beckman"), url(./fonts/Beckman.otf), format("otf");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local("Lato"), url(./fonts/Lato.ttf), format("ttf");
+}
+
+@tailwind utilities;
+
+/* Components - Btn */
+.btn {
+  @apply py-2 px-2 md:px-6 mr-2 border-2 border-blue-450 font-mono text-xs md:text-base text-blue-450 tracking-wide cursor-pointer hover:bg-blue-450 hover:text-white;
+}

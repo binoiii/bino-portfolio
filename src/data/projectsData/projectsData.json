@@ -1,0 +1,112 @@
+[
+  {
+    "img": "project1.jpg",
+    "imgMobile": "./images/project1/project1-mobile.png",
+    "imgWeb": "./images/project1/project1-web.jpg",
+    "title": "HappyHandsMnl",
+    "link": "www.thehappyhandsmnl.com",
+    "repository": "www.github.com/binothird/happyhandsmnl-app",
+    "description": "Eco-friendly and personalized souvenirs e-commerce website",
+    "slug": "happyhandsmnl",
+    "specification": "rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat sed cras ornare arcu dui",
+    "role": "Created the project from scratch",
+    "responsibilities": [
+      "Full Stack Development",
+      "Responsive Design",
+      "User Experience",
+      "Deployment"
+    ],
+    "challenges": "The biggest challenge in creating the was it was created from scratch.",
+    "technologies": [
+      "React",
+      "Gatsby",
+      "Graphql",
+      "Express",
+      "Node",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "UI/UX",
+      "Netlify"
+    ]
+  },
+  {
+    "img": "project2.jpg",
+    "imgMobile": "./images/project2/project2-mobile.png",
+    "imgWeb": "./images/project2/project2-web.jpg",
+    "title": "Zion Philippines",
+    "link": "www.zion-ph.com",
+    "repository": "www.github.com",
+    "description": "Modern massage chairs e-commerce website",
+    "slug": "zionphilippines",
+    "specification": "rhoncus mattis",
+    "role": "Created the project from scratch",
+    "responsibilities": [
+      "Full Stack Development",
+      "Responsive Design",
+      "User Experience",
+      "Deployment"
+    ],
+    "challenges": "The biggest challenge in creating the was it was created from scratch.",
+    "technologies": [
+      "React",
+      "Gatsby",
+      "JavaScript",
+      "HTML5",
+      "React Bootstrap",
+      "CSS3",
+      "UI/UX",
+      "Netlify"
+    ]
+  },
+  {
+    "img": "project3.jpg",
+    "imgMobile": "./images/project3/project3-mobile.png",
+    "imgWeb": "./images/project3/project3-web.jpg",
+    "title": "TODO App",
+    "link": "www.zion-ph.com",
+    "repository": "www.github.com",
+    "description": "To do list application",
+    "slug": "todooapp",
+    "specification": "rhoncus mattis",
+    "role": "Created the project from scratch",
+    "responsibilities": [
+      "Full Stack Development",
+      "Responsive Design",
+      "User Experience",
+      "Deployment"
+    ],
+    "technologies": [
+      "React",
+      "React Router",
+      "JWT Tokens",
+      "Express",
+      "Node",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "UI/UX",
+      "Netlify"
+    ]
+  },
+  {
+    "img": "project4.jpg",
+    "imgMobile": "./images/project4/project4-mobile.png",
+    "imgWeb": "./images/project4/project4-web.jpg",
+    "title": "Navmin",
+    "link": "www.zion-ph.com",
+    "repository": "www.github.com",
+    "description": "Admin dashboard panel",
+    "slug": "navmin",
+    "specification": "rhoncus mattis",
+    "role": "Created the project from scratch",
+    "responsibilities": [
+      "Full Stack Development",
+      "Responsive Design",
+      "User Experience",
+      "Deployment"
+    ],
+    "challenges": "The biggest challenge in creating the was it was created from scratch.",
+    "technologies": ["Bootstrap", "HTML5", "CSS3", "UI/UX"]
+  }
+]
