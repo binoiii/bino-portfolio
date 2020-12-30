@@ -19,7 +19,9 @@ const HeroAbout = () => {
       </div>
       <div className="flex">
         <div className="py-2 px-2 md:px-6 mr-2 bg-blue-450 border-2 border-blue-450 font-mono text-xs md:text-base text-white tracking-wide cursor-pointer hover:bg-gray-200 hover:text-blue-450 ">
-          See resume
+          <a href="./src/images/albin-logo.png" download>
+            See resume
+          </a>
         </div>
       </div>
     </div>
