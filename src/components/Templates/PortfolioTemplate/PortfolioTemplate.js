@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Fade from "react-reveal/Fade"
 
 import Layout from "../../layout"
 import BackButton from "./BackButton"
@@ -97,21 +98,25 @@ const PortfolioTemplate = ({ data }) => {
         <BackButton />
         {data && (
           <>
-            <h3 className="mb-12 font-mono text-blue-450 text-3xl md:text-4xl font-bold">
-              {title}
-            </h3>
-            <HeroTemplate title={title} link={link} source={imageSources} />
-            <LinksTemplate link={link} repository={repository} />
-            <TechnologiesTemplate technologies={technologies} />
-            <div className="mb-12">
-              <h4 className="mb-2 font-bold">Specification</h4>
-              <p>{specification}</p>
-            </div>
-            <ResponsibilitiesTemplate responsibilities={responsibilities} />
-            <div>
-              <h4 className="mb-2 font-bold">Challenges</h4>
-              <p>{challenges}</p>
-            </div>
+            <Fade left delay={500} duration={1000} distance="30px">
+              <h3 className="mb-12 font-mono text-blue-450 text-3xl md:text-4xl font-bold">
+                {title}
+              </h3>
+            </Fade>
+            <Fade left delay={1000} duration={1000} distance="30px">
+              <HeroTemplate title={title} link={link} source={imageSources} />
+              <LinksTemplate link={link} repository={repository} />
+              <TechnologiesTemplate technologies={technologies} />
+              <div className="mb-12">
+                <h4 className="mb-2 font-bold">Specification</h4>
+                <p>{specification}</p>
+              </div>
+              <ResponsibilitiesTemplate responsibilities={responsibilities} />
+              <div>
+                <h4 className="mb-2 font-bold">Challenges</h4>
+                <p>{challenges}</p>
+              </div>
+            </Fade>
           </>
         )}
       </section>
