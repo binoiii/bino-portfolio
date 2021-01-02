@@ -15,18 +15,15 @@
       "Responsive Design",
       "Deployment"
     ],
-    "challenges": "After the series of tutorials, this was my first project that was created from scratch. Each of the components were created from plain css and its functionalities were created from vanilla javascript. After the go-live of the project, the client requested for funcionality updates due to the users of the website would like to order right away from the website after they have browse the products and tested their font. Though the projects still needs lots of improvement, its main purposes of showcasing all the products in a neat and in fashion manner and allowing the user to test its font was achieved. The next phase of the project would be payment integration.",
+    "challenges": "This was my first project that was created from scratch.  For example, the modals, navigation bar and the others were created without the use of framework such as Tailwind and Bootstrap. The touch events and other functionalities were created from vanilla JavaScript. It may look like reinventing the wheel but the goal in mind is to fully grasp the fundamentals of HTML, CSS and JavaScript. Also, to deeply understand how things work behind. It was a great opportunity for learning because it allowed me to have a solid understanding of the basics. As a result, it provided me to have the flexibility of learning or using a new framework. In line with this, the project was created with React. Instead of trying to learn React through tutorials and replicating the project incorporated on it, I preferred to study React in such fashion because experiencing bugs and debugging is a skill that as important as learning the library. With thorough research, I have used different React hooks such as useRef, useEffect and the others.",
     "technologies": [
       "JavaScript",
       "React",
       "Redux",
-      "Gatsby",
-      "Graphql",
-      "Express",
-      "Node",
       "HTML5",
       "CSS3",
-      "Netlify"
+      "Netlify",
+      "Facebook Messenger"
     ]
   },
   {
@@ -67,25 +64,26 @@
     "repository": "www.github.com/binoiii/todos-app",
     "description": "To do list application",
     "slug": "todosapp",
-    "specification": "A fullstack todo application with user authentication via JWT Token and the utilization of React Context API.",
+    "specification": "A fullstack todo application with user authentication via JWT and the utilization of React Context API.",
     "responsibilities": [
       "Full Stack Development",
       "Layout, UI and UX design",
       "Responsive Design",
       "Deployment"
     ],
-    "challenges": "The biggest challenge in creating the was it was created from scratch.",
+    "challenges": "Todos application was my first full stack development project. As a front end developer, learning the basic building blocks of the backend of the application will allow me to further understand how web applications work holistically. The application features RESTful web services and user authentication through JWT. In addition, to manage the data, Context API was utilised. Creating a full stack project poses a number of challenges. However, every challenges encountered was worth solving because it fructified to new skills and learnings unlocked.",
     "technologies": [
+      "JavaScript",
       "React",
       "React Router",
       "JWT Tokens",
       "Express",
       "Node",
-      "JavaScript",
       "HTML5",
       "CSS3",
       "UI/UX",
-      "Netlify"
+      "Netlify",
+      "Heroku"
     ]
   },
   {
@@ -93,19 +91,17 @@
     "imgMobile": "./images/project4/project4-mobile.png",
     "imgWeb": "./images/project4/project4-web.jpg",
     "title": "Navmin",
-    "link": "www.zion-ph.com",
-    "repository": "www.github.com",
+    "link": "www.navmin.netlify.app",
+    "repository": "www.github.com/binoiii/navmin-cms-admin.comm",
     "description": "Admin dashboard panel",
     "slug": "navmin",
-
-    "role": "Created the project from scratch",
+    "specification": "A front-end application created using bootstrap.",
     "responsibilities": [
       "Full Stack Development",
       "Responsive Design",
       "User Experience",
       "Deployment"
     ],
-    "challenges": "The biggest challenge in creating the was it was created from scratch.",
-    "technologies": ["Bootstrap", "HTML5", "CSS3", "UI/UX"]
+    "technologies": ["Bootstrap", "HTML5", "CSS3", "UI/UX", "Netlify"]
   }
 ]
