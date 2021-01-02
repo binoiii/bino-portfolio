@@ -1,14 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import ImageLogo from "../Images/ImageLogo"
 import { LaptopIcon, UserIcon, ContactIcon } from "../Icons/Icons"
+import LogoSVG from "../../images/albin-light.svg"
 
 const Nav = () => {
   return (
-    <header className="px-4 sm:px-8 md:p-2 flex md:flex-col justify-between md:justify-start md:align-center fixed bottom-0 left-0 h-16 md:h-full w-full md:w-72 bg-blue-450 z-50">
-      <Link to="/">
-        <ImageLogo className="w-14 h-full md:h-auto md:w-full pt-2 md:pt-0" />
+    <header className="px-4 sm:px-8 md:p-2 flex md:flex-col justify-between md:justify-start items-center fixed bottom-0 left-0 h-16 md:h-full w-full md:w-72 bg-blue-450 z-50">
+      <Link to="/" className="w-16 md:w-64" activeClassName="animate-pulse">
+        <img src={LogoSVG} alt="albin-logo" />
       </Link>
       <div className="flex md:flex-col md:items-center text-white">
         <Link

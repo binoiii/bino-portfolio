@@ -21,8 +21,8 @@ module.exports = {
         name: `bino-portfolio`,
         short_name: `bino`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#67b4fc`,
+        theme_color: `#67b4fc`,
         display: `minimal-ui`,
         icon: `src/images/albin-logo.png`, // This path is relative to the root of the site.
       },
