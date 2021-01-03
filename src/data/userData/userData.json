@@ -96,20 +96,34 @@
         "title": "Cloud Application Consultant",
         "company": "OpenText",
         "date": "April 2015 - Present",
-        "description": "Responsible for the Analysis, Design, Development, Testing and Deployment of maps through the use of AI language and Agile Development Methodology. Project lead for several projects and ensures that the tasks are delivered on or ahead of SLA and with perfect quality."
+        "description": "Responsible for the Analysis, Design, Development, Testing and Deployment of maps through the use of AI language and Agile Development Methodology. Project lead for several projects and ensures that the tasks are delivered on or ahead of SLA and with perfect quality.",
+        "awards": [
+          {
+            "title": "Excellence Recognition Awardee",
+            "description": "Efficient task turnaround time, quality deliverables and strong task accountability"
+          },
+          {
+            "title": "Customer's Choice Awardee",
+            "description": "Notable contributions to customer's satisfaction"
+          },
+          {
+            "title": "Employee Energizer Awardee",
+            "description": "Organized extra-curricular activites resulted to teamwork and collaboration"
+          }
+        ]
       },
       {
         "title": "SAP Application Consultant",
         "company": "DXC Technology",
         "date": "July 2014 - April 2015",
-        "description": "Provides assessments and troubleshooting of SAP system related incidents. Performs transportation of TRs that contain the changes in the SAP system. Creates process innovation and training materials to further improve the efficiency of the resources."
+        "description": "Provides assessment and troubleshooting of SAP system related incidents. Performs transportation of TRs that contain the changes in the SAP system. Creates process innovation and training materials to further improve the efficiency of the resources."
       }
     ],
     "education": [
       {
         "school": "De La Salle University",
         "date": "2009-2013",
-        "degree": "BS degree in Electronics and Communications Engineer",
+        "degree": "BS degree in Electronics and Communications Engineering",
         "accomplishments": [
           "Gold Thesis Awardee (Best Undergraduate Thesis)",
           "Top 15% of the graduating class"

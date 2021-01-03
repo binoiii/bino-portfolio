@@ -15,7 +15,7 @@
       "Responsive Design",
       "Deployment"
     ],
-    "challenges": "This was my first project that was created from scratch. Such the modals, navigation bar and the others were created without the use of framework such as Tailwind and Bootstrap. The touch events and other functionalities were created from vanilla JavaScript. It may look like reinventing the wheel but the goal in mind is to fully grasp the fundamentals of HTML, CSS and JavaScript. Also, to deeply understand how things work behind. It was a great opportunity for learning because it allowed me to have a solid understanding of the basics. As a result, it provided me to have the flexibility of learning or using a new framework. In line with this, the project was created with React. Instead of trying to learn React through tutorials and replicating the project incorporated on it, I preferred to study React in such fashion because experiencing bugs and debugging is a skill that as important as learning the library. With thorough research, I have used different React hooks such as useRef, useEffect and the others.",
+    "challenges": "This was my first project that was created from scratch. UI components namely, the modal, navigation bar and the others were created without the use of framework such as Tailwind and Bootstrap. The touch events and the other functionalities were created from vanilla JavaScript. It may look like reinventing the wheel but the goal in mind is to fully grasp the fundamentals of HTML, CSS and JavaScript. Also, to deeply understand how things work behind the scenes. It was a great opportunity for learning because it allowed me to have a solid understanding of the basics. As a result, it provided me to have the flexibility of learning or using a new framework. In line with this, the project was created with React. Instead of trying to learn React through tutorials and replicating the project incorporated on it, I preferred to study React in such fashion because experiencing bugs and debugging is a skill that as important as learning the library. With thorough research, I have used different React hooks such as useRef, useEffect and the others.",
     "technologies": [
       "JavaScript",
       "React",
@@ -95,13 +95,14 @@
     "repository": "github.com/binoiii/navmin-cms-admin",
     "description": "Admin dashboard panel",
     "slug": "navmin",
-    "specification": "A front-end application created using bootstrap.",
+    "specification": "A front-end CMS application created using Bootstrap.",
     "responsibilities": [
-      "Full Stack Development",
+      "Front End Development",
       "Responsive Design",
       "User Experience",
       "Deployment"
     ],
+    "challenges": "",
     "technologies": ["Bootstrap", "HTML5", "CSS3", "UI/UX", "Netlify"]
   }
 ]

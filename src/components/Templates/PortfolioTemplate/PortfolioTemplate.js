@@ -111,11 +111,13 @@ const PortfolioTemplate = ({ data }) => {
                 <h4 className="mb-2 font-bold">Specification</h4>
                 <p>{specification}</p>
               </div>
+              {challenges && (
+                <div className="mb-12">
+                  <h4 className="mb-2 font-bold">Challenges</h4>
+                  <p>{challenges}</p>
+                </div>
+              )}
               <ResponsibilitiesTemplate responsibilities={responsibilities} />
-              <div>
-                <h4 className="mb-2 font-bold">Challenges</h4>
-                <p>{challenges}</p>
-              </div>
             </Fade>
           </>
         )}

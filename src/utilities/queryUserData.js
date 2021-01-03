@@ -22,6 +22,10 @@ const QueryUserData = () => {
                 company
                 date
                 description
+                awards {
+                  title
+                  description
+                }
               }
               education {
                 school

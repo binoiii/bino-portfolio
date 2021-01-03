@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 const ResponsibilitiesTemplate = ({ responsibilities }) => (
-  <div className="mb-12">
+  <div>
     <h4 className="mb-2 font-bold">Responsibilities</h4>
     <ul>
       {responsibilities &&

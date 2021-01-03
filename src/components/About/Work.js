@@ -10,7 +10,7 @@ const Work = () => {
       <h4 className="mb-4 text-3xl text-blue-450 font-bold">Experience</h4>
       <ul>
         {work &&
-          work.map(({ company, date, title, description }, i) => (
+          work.map(({ company, date, title, description, awards }, i) => (
             <li key={i}>
               <div className="mb-6">
                 <div className="mb-4">
@@ -18,7 +18,22 @@ const Work = () => {
                   <h5 className="text-gray-400">{title}</h5>
                   <h5 className="text-gray-400">{date}</h5>
                 </div>
-                <p className="text-gray-700">{description}</p>
+                <div className="mb-4">
+                  <p className="text-gray-700">{description}</p>
+                </div>
+                {awards && (
+                  <div className="mb-4">
+                    <h5 className="mb-2 text-gray-700 font-bold">Awards</h5>
+                    {awards.map((award, i) => (
+                      <div key={i} className="mb-2">
+                        <h5 className="text-gray-700 font-bold">
+                          {award.title}
+                        </h5>
+                        <p className="text-gray-700">{award.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             </li>
           ))}
