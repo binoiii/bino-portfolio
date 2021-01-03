@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Bino Portfolio`,
-    description: `Website which showcases my projects and profile.`,
+    description: `Website which showcases my projects and my profile.`,
     author: `@binothird`,
     url: `https://bino-third.netlify.app`,
     image: `/images/albin-logo.jpg`,
