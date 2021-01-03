@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Bino Portfolio`,
-    description: `I am Albino a fullstack developer.`,
+    description: `Website which showcases my projects and profile.`,
     author: `@binothird`,
+    url: `https//:bino-third.netlify.app`,
+    image: `/images/albin-logo.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,17 +26,11 @@ module.exports = {
         background_color: `#67b4fc`,
         theme_color: `#67b4fc`,
         display: `minimal-ui`,
-        icon: `src/images/albin-logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/albin-logo.png`,
       },
     },
     `gatsby-plugin-postcss`,
     `gatsby-transformer-json`,
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `./src`,
-    //   },
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -42,8 +38,5 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
