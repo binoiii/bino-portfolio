@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Fade from "react-reveal/Fade"
 
 import Layout from "../../layout"
-import BackButton from "./BackButton"
+import BackButton from "../../Utilities/BackButton"
 import HeroTemplate from "./HeroTemplate"
 import LinksTemplate from "./LinksTemplate"
 import TechnologiesTemplate from "./TechnologiesTemplate"
@@ -95,7 +95,7 @@ const PortfolioTemplate = ({ data }) => {
   return (
     <Layout>
       <section className="p-4 pb-20 md:p-0 m-0 sm:m-10 md:m-16 md:mt-8 font-mono text-gray-700">
-        <BackButton />
+        <BackButton location="portfolio" />
         {data && (
           <>
             <Fade left delay={500} duration={1000} distance="30px">

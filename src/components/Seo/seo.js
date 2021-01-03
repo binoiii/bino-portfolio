@@ -37,6 +37,8 @@ function SEO({ description, lang, title, url }) {
     url: defaultUrl || url,
   }
 
+  console.log(seo.image, seo.title)
+
   return (
     <>
       <Helmet
@@ -76,7 +78,7 @@ function SEO({ description, lang, title, url }) {
           },
           {
             property: `og:image:alt`,
-            content: seo.title,
+            content: `Bino Portfolio`,
           },
           {
             name: `twitter:card`,
