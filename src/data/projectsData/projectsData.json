@@ -15,7 +15,7 @@
       "Responsive Design",
       "Deployment"
     ],
-    "challenges": "This was my first project that was created from scratch.  For example, the modals, navigation bar and the others were created without the use of framework such as Tailwind and Bootstrap. The touch events and other functionalities were created from vanilla JavaScript. It may look like reinventing the wheel but the goal in mind is to fully grasp the fundamentals of HTML, CSS and JavaScript. Also, to deeply understand how things work behind. It was a great opportunity for learning because it allowed me to have a solid understanding of the basics. As a result, it provided me to have the flexibility of learning or using a new framework. In line with this, the project was created with React. Instead of trying to learn React through tutorials and replicating the project incorporated on it, I preferred to study React in such fashion because experiencing bugs and debugging is a skill that as important as learning the library. With thorough research, I have used different React hooks such as useRef, useEffect and the others.",
+    "challenges": "This was my first project that was created from scratch. Such the modals, navigation bar and the others were created without the use of framework such as Tailwind and Bootstrap. The touch events and other functionalities were created from vanilla JavaScript. It may look like reinventing the wheel but the goal in mind is to fully grasp the fundamentals of HTML, CSS and JavaScript. Also, to deeply understand how things work behind. It was a great opportunity for learning because it allowed me to have a solid understanding of the basics. As a result, it provided me to have the flexibility of learning or using a new framework. In line with this, the project was created with React. Instead of trying to learn React through tutorials and replicating the project incorporated on it, I preferred to study React in such fashion because experiencing bugs and debugging is a skill that as important as learning the library. With thorough research, I have used different React hooks such as useRef, useEffect and the others.",
     "technologies": [
       "JavaScript",
       "React",
@@ -35,7 +35,7 @@
     "repository": "github.com/binoiii/zionph-app",
     "description": "Modern massage chairs e-commerce website",
     "slug": "zionphilippines",
-    "specification": "Zion Philippines’s website serves as a product catalogue which includes the company profile, client reviews and the list of satisfied customers. The user can directly order a product and contact the company for any questions.",
+    "specification": "Zion Philippines’s website serves as a product catalogue which includes the company profile, client reviews and the satisfied customers. The user can directly order a product and contact the company for any queries and questions.",
     "responsibilities": [
       "Full Stack Development",
       "Layout, UI and UX design",
