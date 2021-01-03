@@ -20,7 +20,14 @@ function SEO({ description, lang, title, url }) {
     `
   )
 
-  const { defaultTitle, defaultDescription, author, defaultUrl, image } = site
+  const {
+    defaultTitle,
+    defaultDescription,
+    author,
+    defaultUrl,
+    image,
+  } = site.siteMetadata
+
   const seo = {
     title: title || defaultTitle,
     titleTemplate: `%s | ${defaultTitle}`,
@@ -110,7 +117,6 @@ SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   title: PropTypes.string.isRequired,
-  usl: PropTypes.string.isRequired,
 }
 
 export default SEO
