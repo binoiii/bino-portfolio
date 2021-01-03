@@ -1,4 +1,4 @@
-# Official Repository of Bino Portfolio Web Application
+# Official Repository of Bino Portfolio
 
 Live Link: https://bino-third.netlify.app
 
