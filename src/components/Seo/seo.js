@@ -37,8 +37,6 @@ function SEO({ description, lang, title, url }) {
     url: defaultUrl || url,
   }
 
-  console.log(seo.image, seo.title)
-
   return (
     <>
       <Helmet
