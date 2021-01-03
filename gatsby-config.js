@@ -3,7 +3,7 @@ module.exports = {
     title: `Bino Portfolio`,
     description: `Website which showcases my projects and profile.`,
     author: `@binothird`,
-    url: `https//:bino-third.netlify.app`,
+    url: `https://bino-third.netlify.app`,
     image: `/images/albin-logo.jpg`,
   },
   plugins: [
