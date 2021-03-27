@@ -15,5 +15,5 @@
 
 /* Components - Btn */
 .btn {
-  @apply py-2 px-2 md:px-6 mr-2 border-2 border-blue-450 font-mono text-xs md:text-base text-blue-450 tracking-wide cursor-pointer hover:bg-blue-450 hover:text-white;
+  @apply py-2 px-2 md:px-6 mr-2 border-2 border-blue-450 font-primary text-xs md:text-base text-blue-450 tracking-wide cursor-pointer hover:bg-blue-450 hover:text-white;
 }

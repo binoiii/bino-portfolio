@@ -6,7 +6,7 @@ const Work = () => {
   const { work } = queryUserData()
 
   return (
-    <div className="mx-8 mb-16 md:mx-16 font-mono">
+    <div className="mx-8 mb-16 md:mx-16 font-primary">
       <h4 className="mb-4 text-3xl text-blue-450 font-bold">Experience</h4>
       <ul>
         {work &&

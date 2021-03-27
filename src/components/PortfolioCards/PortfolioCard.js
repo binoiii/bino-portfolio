@@ -12,10 +12,10 @@ const PortfolioCard = ({ portfolio }) => {
     >
       <PorfolioHead img={img} />
       <div className="p-6 pt-0 bg-white">
-        <h4 className="font-mono text-xl text-blue-450 tracking-wide font-medium">
+        <h4 className="font-primary text-xl text-blue-450 tracking-wide font-medium">
           {title}
         </h4>
-        <p className="font-mono text-gray-700">{description}</p>
+        <p className="font-primary text-gray-700">{description}</p>
       </div>
     </Link>
   )

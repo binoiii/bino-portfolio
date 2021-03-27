@@ -10,7 +10,7 @@ const BackButton = ({ label, location }) => (
       className="text-yellow-500 transition duration-300 ease-out transform hover:-translate-x-2 hover:text-blue-450"
     >
       <BackIcon className="inline text-lg md:text-xl " />
-      <span className="m-2 font-mono tracking-wider">{label}</span>
+      <span className="m-2 font-primary tracking-wider">{label}</span>
     </Link>
   </div>
 )

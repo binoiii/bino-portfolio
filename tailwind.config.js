@@ -9,8 +9,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Beckman"],
-        mono: ["Lato"],
+        primary: ["Lato"],
+        secondary: ["Beckman"],
       },
     },
     gridTemplateColumns: {

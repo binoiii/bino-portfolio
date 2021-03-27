@@ -6,7 +6,7 @@ const Education = () => {
   const { education } = queryUserData()
 
   return (
-    <div className="mx-8 md:mx-16 font-mono">
+    <div className="mx-8 md:mx-16 font-primary">
       <h4 className="mb-4 text-3xl text-blue-450 font-bold">Education</h4>
       <ul>
         {education &&

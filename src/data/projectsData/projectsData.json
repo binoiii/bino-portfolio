@@ -1,77 +1,111 @@
 [
   {
-    "img": "project1.jpg",
-    "imgMobile": "./images/project1/project1-mobile.png",
-    "imgWeb": "./images/project1/project1-web.jpg",
+    "img": "hhmnl.jpg",
+    "imgMobile": "./images/hhmnl/hhmnl-mobile.png",
+    "imgWeb": "./images/hhmnl/hhmnl-web.jpg",
     "title": "HappyHandsMnl",
     "link": "thehappyhandsmnl.com",
-    "repository": "github.com/binoiii/happyhandsmnl-app",
-    "description": "Eco-personalized souvenirs e-commerce website",
-    "slug": "happyhandsmnl",
-    "specification": "Happyhandsmnl's website showcases the company's wide array of eco-friedly products. Since the primary service of the company is product personalization, the user can tryout different set of fonts that best suit his purchase. The user can also place his order/s in the website.",
+    "repository": "github.com/binoiii/hhmnl-app",
+    "description": "Eco-personalize souvenirs e-commerce website",
+    "slug": "hhmmnl",
+    "specification": "This is an upgraded version of HappyHandsMnl initial website. To enhance the customer's shopping experience, the user can now both personalize and order on the website. Thus, eliminating, the significant bottleneck in purchasing the product.",
     "responsibilities": [
-      "Full Stack Development",
+      "Overall Development",
       "Layout, UI and UX design",
       "Responsive Design",
       "Deployment"
     ],
-    "challenges": "This was my first project that was created from scratch. UI components namely, the modal, navigation bar and the others were created without the use of framework such as Tailwind and Bootstrap. The touch events and the other functionalities were created from vanilla JavaScript. It may look like reinventing the wheel but the goal in mind is to fully grasp the fundamentals of HTML, CSS and JavaScript. Also, to deeply understand how things work behind the scenes. It was a great opportunity for learning because it allowed me to have a solid understanding of the basics. As a result, it provided me to have the flexibility of learning or using a new framework. In line with this, the project was created with React. Instead of trying to learn React through tutorials and replicating the project incorporated on it, I preferred to study React in such fashion because experiencing bugs and debugging is a skill that as important as learning the library. With thorough research, I have used different React hooks such as useRef, useEffect and the others.",
+    "challenges": "The main challenge in the development is the utilization of Redux to manage the application's state. However, as previously thought of as a challenge, it was a joy to apply the core concepts of Redux in a practical application because it allowed me to further understand its advantages such as having a predictable state container. On top of that, it pushed me to further enhance my coding skills in sorting the items in the cart in a non-mutating manner.",
     "technologies": [
       "JavaScript",
       "React",
+      "Gatsby",
+      "GraphQL",
       "Redux",
       "HTML5",
-      "CSS3",
+      "CSS",
+      "Tailwind CSS",
       "Netlify",
       "Facebook Messenger"
     ]
   },
   {
-    "img": "project2.jpg",
-    "imgMobile": "./images/project2/project2-mobile.png",
-    "imgWeb": "./images/project2/project2-web.jpg",
+    "img": "petfindph.jpg",
+    "imgMobile": "./images/petfindph/petfindph-mobile.png",
+    "imgWeb": "./images/petfindph/petfindph-web.jpg",
+    "title": "PetFindPH",
+    "link": "petfind-ph.com",
+    "repository": "github.com/binoiii/petfind-ph",
+    "description": "Provider of QR Code Activated Pet Tags",
+    "slug": "petfindph",
+    "specification": "PetFindPH website application serves as the company’s profile and product catalog. Also, it is integrated into Contentful where every client’s pet information is stored. Every instance that the owner creates a new pet profile, the application programmatically creates a new page that includes the pet’s vital information to safely return the lost pet.",
+    "responsibilities": [
+      "Overall Development",
+      "Layout, UI and UX design",
+      "Responsive Design",
+      "Deployment"
+    ],
+    "challenges": "The challenge of the project is to create a minimum of 200 URLS that will be linked to the pet profile page. Therefore, each page should be created programmatically and be connected to the database for the owner’s maintenance. As a software developer, it is both exciting and a stretching experience because it will enhance your decision-making and problem-solving skills in choosing which approach should provide the best solution considering the timeline provided and the financial resources of the project. After thorough research, I was able to come up with a viable solution. Though there might be other solutions available, I choose and utilized on the Gatsby’s API createPage integrated with Contentful as CMS. I have created a standard layout of the pet profile using React that will consume  the data from the CMS every time the owner has sold a new pet tag. Thus, eliminating the manual labor of creating each page. Overall, it was a rewarding experience to create a product and solution from scratch that the client exactly needs.",
+    "technologies": [
+      "JavaScript",
+      "React",
+      "Gatsby",
+      "GraphQL",
+      "Contentful",
+      "HTML5",
+      "CSS",
+      "Tailwind CSS",
+      "Netlify",
+      "Facebook Messenger"
+    ]
+  },
+  {
+    "img": "zionph.jpg",
+    "imgMobile": "./images/zionph/zionph-mobile.png",
+    "imgWeb": "./images/zionph/zionph-web.jpg",
     "title": "Zion Philippines",
     "link": "zion-ph.com",
     "repository": "github.com/binoiii/zionph-app",
     "description": "Modern massage chairs e-commerce website",
     "slug": "zionphilippines",
-    "specification": "Zion Philippines’s website serves as a product catalogue which includes the company profile, client reviews and the satisfied customers. The user can directly order a product and contact the company for any queries and questions.",
+    "specification": "Zion Philippines’s website serves as a product catalog that includes the company profile, client reviews, and satisfied customers. The user can directly order a product and contact the company for any queries and questions.",
     "responsibilities": [
-      "Full Stack Development",
+      "Overall Development",
       "Layout, UI and UX design",
       "Responsive Design",
       "Deployment"
     ],
-    "challenges": "The challenges for the project are strict deadline due to the website must go live prior to the start of the holiday season and no prior experience with Gatsby technology. Instead, I took it as an opportunity to further improve my skills in working well under great pressure and being able to work and learn new technologies in faster phase. As a result, the client was delighted with the outcome of the website particularly to its performance, design and seamless user experience.",
+    "challenges": "The challenges for the project are strict deadlines due to the website must go live before the start of the holiday season and no prior experience with Gatsby technology. Instead, I took it as an opportunity to further improve my skills in working well under great pressure and being able to work and learn new technologies in a faster phase. As a result, the client was delighted with the outcome of the website particularly its performance, design, and seamless user experience.",
     "technologies": [
       "JavaScript",
       "React",
       "Gatsby",
+      "GraphQL",
       "HTML5",
       "React Bootstrap",
-      "CSS3",
+      "CSS",
       "Netlify",
       "Facebook Messenger",
       "Session Token"
     ]
   },
   {
-    "img": "project3.jpg",
-    "imgMobile": "./images/project3/project3-mobile.png",
-    "imgWeb": "./images/project3/project3-web.jpg",
+    "img": "todo-app.jpg",
+    "imgMobile": "./images/todo-app/todo-app-mobile.png",
+    "imgWeb": "./images/todo-app/todo-app-web.jpg",
     "title": "TODOS App",
     "link": "todos-app-mern.herokuapp.com",
     "repository": "github.com/binoiii/todos-app",
     "description": "A fullstack to do list application",
     "slug": "todosapp",
-    "specification": "A fullstack todo application with user authentication via JWT and utilization of React Context API.",
+    "specification": "A full-stack todo application with user authentication via JWT and utilization of React Context API.",
     "responsibilities": [
       "Full Stack Development",
       "Layout, UI and UX design",
       "Responsive Design",
       "Deployment"
     ],
-    "challenges": "Todos application was my first full stack development project. As a front end developer, learning the basic building blocks of the backend of the application will allow me to further understand how web applications work holistically. The application features RESTful web services and user authentication through JWT. In addition, to manage the data, Context API was utilised. Creating a full stack project poses a number of challenges. However, every challenges encountered was worth solving because it fructified to new skills and learnings unlocked.",
+    "challenges": "Todos application was my first full-stack development project. As a front-end developer, learning the basic building blocks of the backend of the application will allow me to further understand how web applications work holistically. The application features RESTful web services and user authentication through JWT. Also, to manage the data, Context API was utilised. Creating a full-stack project poses several challenges. However, every challenge encountered was worth solving because it fructified to new skills and learnings unlocked.",
     "technologies": [
       "JavaScript",
       "React",
@@ -80,16 +114,42 @@
       "Express",
       "Node",
       "HTML5",
-      "CSS3",
+      "CSS",
       "UI/UX",
       "Netlify",
       "Heroku"
     ]
   },
   {
-    "img": "project4.jpg",
-    "imgMobile": "./images/project4/project4-mobile.png",
-    "imgWeb": "./images/project4/project4-web.jpg",
+    "img": "hhmnl-v1.jpg",
+    "imgMobile": "./images/hhmnl-v1/hhmnl-v1-mobile.png",
+    "imgWeb": "./images/hhmnl-v1/hhmnl-v1-web.jpg",
+    "title": "HappyHandsMnl v1",
+    "link": "thehappyhandsmnl-v1.netlify.app",
+    "repository": "github.com/binoiii/thehappyhandsmnl-v1",
+    "description": "Eco-personalize souvenirs website",
+    "slug": "happyhandsmnl",
+    "specification": "Happyhandsmnl's website showcases the company's wide array of eco-friendly products. Since the primary service of the company is product personalization, the user can try out a different set of fonts that best suit his purchase. The user can also place his order on the website's contact page.",
+    "responsibilities": [
+      "Overall Development",
+      "Layout, UI and UX design",
+      "Responsive Design",
+      "Deployment"
+    ],
+    "challenges": "This was my first project that was created from scratch. UI components namely, the modal, navigation bar, and the others were created without the use of a framework such as Tailwind and Bootstrap. The touch events and the other functionalities were created from vanilla JavaScript. It may look like reinventing the wheel but the goal in mind is to fully grasp the fundamentals of HTML, CSS, and JavaScript. Also, to deeply understand how things work behind the scenes. It was a great opportunity for learning because it allowed me to have a solid understanding of the basics. As a result, it provided me to have the flexibility of learning or using a new framework. In line with this, the project was created with React. Instead of trying to learn React through tutorials and replicating the project incorporated on it, I preferred to study React in such a method because experiencing bugs and debugging is a skill that as important as learning the library. With thorough research, I have used different React hooks such as useRef, useEffect, and others.",
+    "technologies": [
+      "JavaScript",
+      "React",
+      "HTML5",
+      "CSS",
+      "Netlify",
+      "Facebook Messenger"
+    ]
+  },
+  {
+    "img": "navmin.jpg",
+    "imgMobile": "./images/navmin/navmin-mobile.png",
+    "imgWeb": "./images/navmin/navmin-web.jpg",
     "title": "Navmin",
     "link": "navmin.netlify.app",
     "repository": "github.com/binoiii/navmin-cms-admin",
@@ -103,6 +163,6 @@
       "Deployment"
     ],
     "challenges": "",
-    "technologies": ["Bootstrap", "HTML5", "CSS3", "UI/UX", "Netlify"]
+    "technologies": ["Bootstrap", "HTML5", "CSS", "UI/UX", "Netlify"]
   }
 ]

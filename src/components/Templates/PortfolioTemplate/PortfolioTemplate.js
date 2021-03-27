@@ -94,12 +94,12 @@ const PortfolioTemplate = ({ data }) => {
 
   return (
     <Layout>
-      <section className="p-4 pb-20 md:p-0 m-0 sm:m-10 md:m-16 md:mt-8 font-mono text-gray-700">
+      <section className="p-4 pb-20 md:p-0 m-0 sm:m-10 md:m-16 md:mt-8 font-primary text-gray-700">
         <BackButton location="portfolio" />
         {data && (
           <>
             <Fade left delay={500} duration={1000} distance="30px">
-              <h3 className="mb-12 font-mono text-blue-450 text-3xl md:text-4xl font-bold">
+              <h3 className="mb-12 font-primary text-blue-450 text-3xl md:text-4xl font-bold">
                 {title}
               </h3>
             </Fade>

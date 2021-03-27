@@ -13,11 +13,11 @@ const Home = () => {
     <Fade left delay={1000} duration={1000} distance="30px">
       <section className="flex justify-center">
         <div className="p-2 md:px-8 pb-16 md:pb-0 min-h-screen flex flex-col justify-center">
-          <h1 className="mb-8 text-3xl sm:text-4xl md:text-5xl font-mono text-gray-700 font-bold">
+          <h1 className="mb-8 text-3xl sm:text-4xl md:text-5xl font-primary text-gray-700 font-bold">
             Hi there, <br />
             my name is <span className="text-yellow-400">{name}</span>.
           </h1>
-          <h2 className="mb-10 text-3xl sm:text-4xl md:text-5xl font-mono text-gray-700 font-bold">
+          <h2 className="mb-10 text-3xl sm:text-4xl md:text-5xl font-primary text-gray-700 font-bold">
             I am a <span className="text-blue-450">{occupation}</span> <br />
             specialised in {specialisation}.
           </h2>
@@ -28,7 +28,7 @@ const Home = () => {
             <Link to="/about">
               <div className="btn">Know more</div>
             </Link>
-            <div className="mx-1 md:mx-2 self-end font-mono text-sm md:text-base">
+            <div className="mx-1 md:mx-2 self-end font-primary text-sm md:text-base">
               or
               <Link
                 className="mx-1 md:mx-2 text-sm md:text-base text-yellow-400 hover:text-blue-450 font-medium"
