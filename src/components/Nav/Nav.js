@@ -24,6 +24,7 @@ const Nav = () => {
         <Link
           className="ml-10 sm:ml-14 md:ml-0 md:mb-4 md:px-8 md:py-2 flex items-center font-primary tracking-widest hover:text-yellow-300"
           activeClassName="text-yellow-300"
+          partiallyActive={true}
           to="/portfolio"
         >
           <LaptopIcon className="text-3xl md:text-base md:mr-2" />
