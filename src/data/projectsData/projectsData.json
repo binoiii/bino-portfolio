@@ -22,11 +22,13 @@
       "Gatsby",
       "GraphQL",
       "Redux",
+      "Redux Thunk",
       "HTML5",
       "CSS",
       "Tailwind CSS",
       "Netlify",
-      "Facebook Messenger"
+      "Facebook Messenger",
+      "Local Storage"
     ]
   },
   {
@@ -86,7 +88,7 @@
       "CSS",
       "Netlify",
       "Facebook Messenger",
-      "Session Token"
+      "Session Storage"
     ]
   },
   {
@@ -117,7 +119,9 @@
       "CSS",
       "UI/UX",
       "Netlify",
-      "Heroku"
+      "Heroku",
+      "Local Storage",
+      "React Context"
     ]
   },
   {
