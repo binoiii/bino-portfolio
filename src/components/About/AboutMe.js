@@ -13,12 +13,6 @@ const AboutMe = () => {
         <h2 className="mb-8 font-primary text-blue-450 text-4xl md:text-5xl font-bold">
           About me
         </h2>
-        <h2 className="mb-8 font-secondary text-blue-450 text-4xl md:text-5xl font-bold">
-          About me
-        </h2>
-        <h2 className="mb-8 text-blue-450 text-4xl md:text-5xl font-bold">
-          About me
-        </h2>
       </Fade>
       <Fade left delay={1000} duration={1000} distance="30px">
         <HeroAbout />
