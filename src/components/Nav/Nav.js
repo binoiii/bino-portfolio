@@ -1,19 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Home, LaptopIcon, UserIcon, ContactIcon } from "../Icons/Icons"
-// import LogoSVG from "../../images/albin-light.svg"
+import LogoSVG from "../../images/albin-light.svg"
 
 const Nav = () => {
   return (
-    <header className="px-4 sm:px-8 md:pb-16 flex md:flex-col justify-between md:justify-center items-center fixed bottom-0 left-0 h-16 md:h-full w-full md:w-72 bg-blue-450 z-50">
-      <Link to="/" className="w-16 h-16 md:w-64 md:h-64 relative">
+    <header className="px-4 sm:px-8 md:pb-16 flex md:flex-col justify-center items-center fixed bottom-0 left-0 h-16 md:h-full w-full md:w-72 bg-blue-450 z-50">
+      <Link
+        to="/"
+        className="hidden md:block w-16 h-16 md:w-64 md:h-64 relative"
+      >
         <div className="flex justify-center">
-          <img src="./images/albin-light.png" alt="albin-logo" />
+          <img src={LogoSVG} alt="albin-logo" />
         </div>
       </Link>
-      <div className="flex md:flex-col md:items-center text-white">
+      <div className="w-full flex justify-around md:flex-col md:items-center text-white">
         <Link
-          className="ml-10 sm:ml-14 md:ml-0 md:mb-4 md:px-8 md:py-2 flex items-center font-primary tracking-widest hover:text-yellow-300"
+          className="md:mb-4 md:px-8 md:py-2 flex items-center font-primary tracking-widest hover:text-yellow-300"
           activeClassName="text-yellow-300"
           to="/"
         >
@@ -21,7 +24,7 @@ const Nav = () => {
           <span className="hidden md:block uppercase">home</span>
         </Link>
         <Link
-          className="ml-10 sm:ml-14 md:ml-0 md:mb-4 md:px-8 md:py-2 flex items-center font-primary tracking-widest hover:text-yellow-300"
+          className="md:mb-4 md:px-8 md:py-2 flex items-center font-primary tracking-widest hover:text-yellow-300"
           activeClassName="text-yellow-300"
           partiallyActive={true}
           to="/portfolio"
@@ -30,7 +33,7 @@ const Nav = () => {
           <span className="hidden md:block uppercase">portfolio</span>
         </Link>
         <Link
-          className="ml-10 sm:ml-14 md:mb-4 md:ml-0 md:px-8 md:py-2  flex items-center font-primary tracking-widest hover:text-yellow-300"
+          className="md:mb-4 md:px-8 md:py-2  flex items-center font-primary tracking-widest hover:text-yellow-300"
           activeClassName="text-yellow-300"
           to="/about"
         >
@@ -38,7 +41,7 @@ const Nav = () => {
           <span className="hidden md:block uppercase">about</span>
         </Link>
         <Link
-          className="ml-10 sm:ml-14 md:mb-4 md:ml-0 md:px-8 md:py-2  flex items-center font-primary tracking-widest hover:text-yellow-300"
+          className="md:mb-4 md:px-8 md:py-2 flex items-center font-primary tracking-widest hover:text-yellow-300"
           activeClassName="text-yellow-300"
           to="/contact"
         >
