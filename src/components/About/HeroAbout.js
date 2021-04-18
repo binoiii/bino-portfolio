@@ -1,7 +1,6 @@
 import React from "react"
 
 import queryUserData from "../../utilities/queryUserData"
-
 const HeroAbout = () => {
   const {
     profile: { about },
