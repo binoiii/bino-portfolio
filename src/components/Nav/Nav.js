@@ -1,14 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Home, LaptopIcon, UserIcon, ContactIcon } from "../Icons/Icons"
-// import LogoSVG from "../../images/albin-light.svg"
+import LogoSVG from "../../images/albin-light.svg"
 
 const Nav = () => {
   return (
     <header className="px-4 sm:px-8 md:pb-16 flex md:flex-col justify-between md:justify-center items-center fixed bottom-0 left-0 h-16 md:h-full w-full md:w-72 bg-blue-450 z-50">
       <Link to="/" className="w-16 h-16 md:w-64 md:h-64 relative">
         <div className="flex justify-center">
-          <img src="./images/albin-light.svg" alt="albin-logo" />
+          <img src={LogoSVG} alt="albin-logo" />
         </div>
       </Link>
       <div className="flex md:flex-col md:items-center text-white">
